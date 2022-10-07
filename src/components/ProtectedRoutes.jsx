@@ -1,12 +1,9 @@
+import { useSelector } from 'react-redux';
 import { Navigate, Outlet } from 'react-router-dom';
 
 const ProtectedRoutes = () => {
-    const tokenExists = () => {
-        const token = localStorage.getItem("token");
-        return token !== ""
-    }
-
-    if (tokenExists()) {
+    const isLogged = useSelector(state => state.isLogged)
+    if (isLogged) {
         console.log("logged out")
         return <Navigate to='/login' />
     } else {
