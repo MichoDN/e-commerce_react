@@ -13,7 +13,6 @@ const LoginCard = () => {
     const [userName, setUserName] = useState("")
 
     const submit = (data) => {
-
         axios.post('https://ecommerce-api-react.herokuapp.com/api/v1/users/login', data)
             .then(res => {
                 localStorage.setItem("token", res.data.data.token)

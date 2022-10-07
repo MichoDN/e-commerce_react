@@ -30,8 +30,8 @@ function App() {
     dispatch(getProductsThunk())
     dispatch(getCategoriesThunk())
 
-    if (localStorage.getItem("token")) dispatch(toggleIsLogged(false))
-    else dispatch(toggleIsLogged(true))
+    if (localStorage.getItem("token")) dispatch(toggleIsLogged(true))
+    else dispatch(toggleIsLogged(false))
   }, [])
 
   useEffect(() => {if (isLogged === true) dispatch(getCartThunk())}, [isLogged])

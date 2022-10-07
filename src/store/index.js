@@ -14,6 +14,6 @@ export default configureStore({
         categories : categoriesSlice,
         purchases : purchasesSlice,
         isLogged : isLoggedSlice,
-        cartProducts : cartProductsSlice, 
+        cartProducts : cartProductsSlice
     }
 })
