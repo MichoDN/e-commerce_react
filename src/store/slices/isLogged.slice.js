@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 export const isLoggedSlice = createSlice({
     name: 'isLogged',
-    initialState: [false],
+    initialState: false,
     reducers: {
         toggleIsLogged : (state, actions) => actions.payload
     }
