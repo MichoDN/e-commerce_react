@@ -1,0 +1,53 @@
+:root {
+    --columnGap: 5rem;
+}
+
+.store_container {
+    display: flex;
+}
+
+
+.content_div {
+    width: 100%;
+}
+
+.search_div {
+    /* background-color: red; */
+    height: fit-content;
+    width: 100%;
+    padding: 1rem;
+}
+
+.search_button {
+    border-radius: 0rem;
+}
+
+.filter_container {
+    width: 22rem;
+    height: fit-content;
+    position: sticky;
+    top: 3.5rem;
+    left: 0rem;
+}
+
+.products_position-fixer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.products_container {
+    /* style  */
+    /* background-color: rgba(154, 155, 218, 0.404); */
+    /* background-color: blue; */
+    margin: 0;
+    /* content  */
+    padding: 3rem 0rem 3rem 0rem;
+    display: grid;
+    grid-template-columns: 22rem 22rem 22rem;
+    row-gap: 2rem;
+    column-gap: 5vw;
+}

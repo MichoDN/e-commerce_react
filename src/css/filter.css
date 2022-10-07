@@ -1,0 +1,33 @@
+.accordion-body{
+    padding: 0;
+}
+.accordion_list{
+    padding: 1rem;
+}
+.accordion_list_item{
+    /* Content  */
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.accordion_item > span{
+    margin-top: 0.1rem;
+    font-size: 0.85rem;
+}
+.filter_Input{
+    width: 12.5rem;
+}
+.list-group{
+    background-color: none;
+}
+.filter-button_Container{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-button_Container > Button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+.category_list{
+    gap: 0.7rem;
+}

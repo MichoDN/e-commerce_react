@@ -1,0 +1,119 @@
+.details_container {
+    width: calc(100vw-3rem);
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carousel_displayer {
+    width: 50vw;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel_backgound{
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.info_container {
+    width: 50vw;
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    gap: 1rem;
+}
+
+.price_n_quantity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_n_quantity>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.quantity_container {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.quantity_container>* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+.quantity_container>input {
+    width: 3rem;
+    text-align: center;
+}
+
+.quantity_container>button {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_button_container{
+    margin-top: 2rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail_addToCar_button {
+    width: 90%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    border-radius: 0.4rem;
+}
+.cart_img_pDetail{
+    height: 100%;
+}
+
+.similar_container{
+    display: grid;
+    grid-template-columns: 22rem 22rem 22rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    width: fit-content;
+}
+.centerer{
+    padding: 3rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

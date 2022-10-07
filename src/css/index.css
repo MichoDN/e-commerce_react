@@ -1,0 +1,96 @@
+:root {
+    --buttonbg: #5f91fd;
+    --buttonHover: #3273ff;
+    --background: #f7f7f7;
+    --background2: rgb(255, 255, 255);
+    --background3: rgb(240, 240, 240);
+    --textBackground: rgb(255, 255, 255);
+    --border: #8B8596;
+    --borderedShade: #5B5666;
+}
+
+.buttonbg {
+    background-color: var(--buttonbg) !important;
+    color: white;
+}
+
+.buttonbg:hover {
+    background-color: var(--buttonHover) !important;
+    transform: scale(1.1);
+}
+
+.background {
+    background-color: var(--background) !important;
+}
+
+.background2 {
+    background-color: var(--background2) !important;
+}
+
+.background3 {
+    background-color: var(--background3) !important;
+}
+
+.border {
+    background-color: var(--border) !important;
+}
+
+.borderedShade {
+    background-color: var(--borderedShade) !important;
+}
+
+.accordion-button {
+    background-color: var(--background2) !important;
+}
+
+input,
+.input-group-text {
+    background-color: var(--textBackground) !important;
+}
+
+.list-group {
+    background-color: var(--background3) !important;
+}
+
+.myTitle {
+    color: var(--buttonbg) !important;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.unselectable:hover {
+    text-decoration: underline;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.zoom2 {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.zoom2:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

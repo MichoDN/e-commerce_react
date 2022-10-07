@@ -1,0 +1,41 @@
+.InCartProducts-cont {
+    border: 1px dotted black;
+    width: 100%;
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.inCart_Quantity{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    margin-top: 0.3rem;
+}
+
+.InCartProducts-cont>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.removeFromCart {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    background-color: #ffffff;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.removeFromCart:hover {
+    background-color: #d4d4d4;
+
+}
+
+.in_cart_price {
+    text-align: end;
+}

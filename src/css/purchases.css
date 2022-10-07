@@ -1,0 +1,36 @@
+.purchase{
+    width: calc(50vw);
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.product_purchased{
+    width: calc(100% - 2rem);
+    height: fit-content;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    padding: 0.5rem;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.product_purchased > p{
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+.purchases_comp{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.product_purchased > div > p{
+    margin: 0;
+    padding: 0;
+}
