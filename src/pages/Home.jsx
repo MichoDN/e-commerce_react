@@ -4,14 +4,15 @@ import { useNavigate } from 'react-router-dom';
 import axiosPng from '../assets/axios.png'
 import reduxPng from '../assets/redux.png'
 import reactjsPng from '../assets/reactjs.png'
+import { useSelector } from 'react-redux';
 
 const Home = () => {
     const navigate = useNavigate()
-
+    const isLogged = useSelector(state => state.isLogged)
     return (
         <div className='home_comp-container'>
             <div className='home_info'>
-                <center><h2>Welcome {localStorage.getItem("userName").length > 1 ? (localStorage.getItem("userName")) : ( <>Visitor</> )}</h2></center>
+                <center><h2>Welcome {isLogged ? (localStorage.getItem("userName")) : ( <>Visitor</> )}</h2></center>
                 <p>
                     Este es un e-commerce parte de mi portafolio y muestra de mis habilidades como desarrollador en
                     el cual he implementado por mi cuenta todas las funcionalidades necesarias para que sea un proyecto
