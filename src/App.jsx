@@ -30,7 +30,7 @@ function App() {
     dispatch(getProductsThunk())
     dispatch(getCategoriesThunk())
 
-    if (localStorage.getItem("token") == "") dispatch(toggleIsLogged(false))
+    if (localStorage.getItem("token")) dispatch(toggleIsLogged(false))
     else dispatch(toggleIsLogged(true))
   }, [])
 
