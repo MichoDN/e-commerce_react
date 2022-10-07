@@ -7,9 +7,11 @@ const ProtectedRoutes = () => {
     }
 
     if (tokenExists()) {
-        return <Outlet />
-    } else {
+        console.log("logged out")
         return <Navigate to='/login' />
+    } else {
+        console.log("logged in") 
+        return <Outlet />
     }
 };
 
