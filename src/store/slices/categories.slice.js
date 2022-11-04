@@ -9,7 +9,7 @@ export const categoriesSlice = createSlice({
     }
 })
 export const getCategoriesThunk = () => dispatch =>{
-    axios.get('https://ecommerce-api-react.herokuapp.com/api/v1/products/categories')
+    axios.get('https://e-commerce-api.academlo.tech/api/v1/products/categories')
     .then(res => dispatch(setCategories(res.data.data.categories)))
 }
 

@@ -12,7 +12,7 @@
     border: 2px solid rgba(0, 0, 0, 0.26);
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.301);
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.247);
     background-color: rgb(240, 240, 240)!important;
 }
 .home_info{
@@ -42,10 +42,13 @@
     width: 100%;
     height: 100%;
 }
-.tech_used > div > img{
-    width: 10rem;
-    height: 10rem;
-    object-fit: contain;
+.tech_used>div>ul{max-width: 100%;
+    padding: 1rem 2rem 0rem 2rem;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.2rem;
 }
 
 

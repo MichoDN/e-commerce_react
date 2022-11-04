@@ -26,9 +26,15 @@ const Home = () => {
             <div className='tech_used'>
                 <center><h2>Used in this proyect:</h2></center>
                 <div>
-                    <img className='zoom2 unselectable' src={axiosPng}/>
-                    <img className='zoom2 unselectable' src={reactjsPng}/>
-                    <img className='zoom2 unselectable' src={reduxPng}/>
+                    <ul>
+                        <li>React</li>
+                        <li>Axios</li>
+                        <li>redux</li>
+                        <li>React Bootstrap</li>
+                        <li>Bootswatch</li>
+                        <li>React hook form</li>
+                        <li>React Router Dom</li>
+                    </ul>
                 </div>
             </div>
             <div className='social_media'>
