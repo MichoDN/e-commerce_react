@@ -20,7 +20,7 @@ const Home = () => {
                 </p>
                 <p>
                     Sientete libre de explorar y probar tanto como quieras y si estás interezado en mi perfil,
-                    te invito a comunicarte conmigo mediante mis redes sociales que estan al pie de la pagina
+                    te invito a comunicarte conmigo mediante mis redes sociales.
                 </p>
             </div>
             <div className='tech_used'>
