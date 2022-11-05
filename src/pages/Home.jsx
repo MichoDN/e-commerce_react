@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import axiosPng from '../assets/axios.png'
-import reduxPng from '../assets/redux.png'
-import reactjsPng from '../assets/reactjs.png'
+import facebookIcon from '../assets/facebookIcon.svg'
+import githubIcon from '../assets/githubIcon.svg'
+import linkedInIcon from '../assets/linkedInIcon.svg'
 import { useSelector } from 'react-redux';
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div className='home_comp-container'>
             <div className='home_info'>
-                <center><h2>Welcome {isLogged ? (localStorage.getItem("userName")) : ( <>Visitor</> )}</h2></center>
+                <center><h2>Welcome {isLogged ? (localStorage.getItem("userName")) : (<>Visitor</>)}</h2></center>
                 <p>
                     Este es un e-commerce parte de mi portafolio y muestra de mis habilidades como desarrollador en
                     el cual he implementado por mi cuenta todas las funcionalidades necesarias para que sea un proyecto
@@ -39,7 +39,11 @@ const Home = () => {
             </div>
             <div className='social_media'>
                 <center><h2>Social Media</h2></center>
-                <div><h2><b>Not yet. Coming soon.</b></h2></div>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100087621905116"><img src={facebookIcon} alt="" /></a></li>
+                    <li><a href="https://github.com/MichoDN"><img src={githubIcon} alt="" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/michael-decena"><img src={linkedInIcon} alt="" /></a></li>
+                </ul>
             </div>
             <div className='goToPage'>
                 <center><h2>Continue to page</h2></center>
